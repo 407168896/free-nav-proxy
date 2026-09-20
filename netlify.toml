@@ -1,0 +1,11 @@
+[build]
+  functions = "api"
+
+[functions]
+  node_bundler = "none"
+
+# 让 App 填写的 /api/nav 在 Netlify 上也指向真实函数端点
+[[redirects]]
+  from = "/api/nav"
+  to = "/.netlify/functions/nav"
+  status = 200
