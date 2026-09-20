@@ -1,0 +1,7 @@
+{
+  "name": "free-nav-proxy",
+  "version": "1.0.1",
+  "private": true,
+  "description": "免费净值代理：零依赖 Node 函数，替代 CloudBase 付费云函数，手机端自动获取银行理财净值",
+  "engines": { "node": "22.x" }
+}
